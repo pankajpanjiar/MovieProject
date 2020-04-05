@@ -16,6 +16,7 @@ namespace MvcMovie.Models
                 if (context.Movie.Any())
                     return;
 
+                //Add Some Sample Movies    
                 context.Movie.AddRange(
                     new Movie{
                         Title = "The Recruit",
